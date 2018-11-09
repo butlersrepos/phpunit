@@ -11,7 +11,12 @@
 class UserTest extends \PHPUnit_Framework_TestCase{
 
 
-    public function testSetAndGetUserFirstName(){
+    protected function getUserModel(){
+
+    }
+
+    /** @test */
+    public function setAndGetUserFirstName(){
         $user = new \App\Models\User;
 
         $user->setFirstName("Billy");
@@ -19,7 +24,8 @@ class UserTest extends \PHPUnit_Framework_TestCase{
         $this->assertEquals($user->getFirstName(), "Billy");
     }
 
-    public function testSetAndGetUserLastName(){
+    /** @test */
+    public function setAndGetUserLastName(){
         $user = new \App\Models\User;
 
         $user->setLastName("Smith");
@@ -27,7 +33,8 @@ class UserTest extends \PHPUnit_Framework_TestCase{
         $this->assertEquals($user->getLastName(), "Smith");
     }
 
-    public function testGetFullName(){
+    /** @test */
+    public function shouldGetFullName(){
         $user = new \App\Models\User;
 
         $user->setFirstName("Jeff");
