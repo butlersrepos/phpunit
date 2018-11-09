@@ -30,4 +30,8 @@ class User{
         return $this->last_name;
     }
 
+    public function getFullName(){
+        return $this->getFirstName() . " " . $this->getLastName();
+    }
+
 }
