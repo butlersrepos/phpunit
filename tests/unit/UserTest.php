@@ -64,11 +64,6 @@ class UserTest extends \PHPUnit_Framework_TestCase{
 
         $this->assertEquals($emailVariables['full_name'], 'Jeff Salisbury');
         $this->assertEquals($emailVariables['email'], 'something@email.com');
-
     }
-
-
-
-
 
 }
