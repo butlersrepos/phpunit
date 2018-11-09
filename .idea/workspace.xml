@@ -44,7 +44,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="39" />
-          <entry key="php" value="2179" />
+          <entry key="php" value="2272" />
           <entry key="txt" value="12" />
           <entry key="xml" value="172" />
         </counts>
@@ -52,7 +52,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="39" />
-          <entry key="PHP" value="2179" />
+          <entry key="PHP" value="2272" />
           <entry key="PLAIN_TEXT" value="12" />
           <entry key="XML" value="172" />
         </counts>
@@ -89,8 +89,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/unit/UserTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            <state relative-caret-position="465">
+              <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
             </state>
           </provider>
         </entry>
@@ -214,12 +214,12 @@
       <option name="presentableId" value="Default" />
       <updated>1541778942425</updated>
       <workItem from="1541778943594" duration="255000" />
-      <workItem from="1541779212592" duration="11506000" />
+      <workItem from="1541779212592" duration="12331000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11761000" />
+    <option name="totallyTimeSpent" value="12586000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -305,8 +305,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/UserTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="15" column="5" lean-forward="true" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+        <state relative-caret-position="465">
+          <caret line="68" lean-forward="true" selection-start-line="68" selection-end-line="68" />
         </state>
       </provider>
     </entry>

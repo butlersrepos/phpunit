@@ -10,65 +10,54 @@
 
 class UserTest extends \PHPUnit_Framework_TestCase{
 
+    protected $user;
 
-    protected function getUserModel(){
-
+    public function setUp(){
+        $this->user = new \App\Models\User;
     }
 
     /** @test */
     public function setAndGetUserFirstName(){
-        $user = new \App\Models\User;
+        $this->user->setFirstName("Billy");
 
-        $user->setFirstName("Billy");
-
-        $this->assertEquals($user->getFirstName(), "Billy");
+        $this->assertEquals($this->user->getFirstName(), "Billy");
     }
 
     /** @test */
     public function setAndGetUserLastName(){
-        $user = new \App\Models\User;
+        $this->user->setLastName("Smith");
 
-        $user->setLastName("Smith");
-
-        $this->assertEquals($user->getLastName(), "Smith");
+        $this->assertEquals($this->user->getLastName(), "Smith");
     }
 
     /** @test */
     public function shouldGetFullName(){
-        $user = new \App\Models\User;
+        $this->user->setFirstName("Jeff");
+        $this->user->setLastName("Salisbury");
 
-        $user->setFirstName("Jeff");
-        $user->setLastName("Salisbury");
-
-        $this->assertEquals($user->getFullName(), "Jeff Salisbury");
+        $this->assertEquals($this->user->getFullName(), "Jeff Salisbury");
     }
 
     public function testUserRollsDice(){
-        $user = new \App\Models\User;
-
-        $result = $user->rollDice(2, 6, 2);
+        $result = $this->user->rollDice(2, 6, 2);
         echo $result;
 
         $this->assertGreaterThanOrEqual(4, $result);
     }
 
     public function testEmailGetAndSet(){
-        $user = new \App\Models\User;
-
         $emailUnderTest = 'something@email.com';
-        $user->setEmail($emailUnderTest);
+        $this->user->setEmail($emailUnderTest);
 
-        $this->assertEquals($user->getEmail(), $emailUnderTest);
+        $this->assertEquals($this->user->getEmail(), $emailUnderTest);
     }
 
     public function testEmailContainsCorrectValues(){
-        $user = new \App\Models\User;
+        $this->user->setFirstName("Jeff");
+        $this->user->setLastName("Salisbury");
+        $this->user->setEmail('something@email.com');
 
-        $user->setFirstName("Jeff");
-        $user->setLastName("Salisbury");
-        $user->setEmail('something@email.com');
-
-        $emailVariables = $user->getEmailVariables();
+        $emailVariables = $this->user->getEmailVariables();
 
         $this->assertArrayHasKey('full_name', $emailVariables);
         $this->assertArrayHasKey('email', $emailVariables);
