@@ -14,6 +14,11 @@ class Collection{
 
     protected $items = [];
 
+    public function __construct(array $items = []){
+        $this->items = $items;
+    }
+
+
     /**
      * @return array
      */
@@ -23,6 +28,6 @@ class Collection{
     }
 
     public function count(){
-        return 3;
+        return count($this->items);
     }
 }
