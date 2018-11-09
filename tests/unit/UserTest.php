@@ -24,7 +24,7 @@ class UserTest extends \PHPUnit_Framework_TestCase{
 
         $user->setLastName("Smith");
 
-        $this->assertEquals($user->getLasttName(), "Smith");
+        $this->assertEquals($user->getLastName(), "Smith");
     }
 
 
