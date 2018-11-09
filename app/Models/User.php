@@ -18,7 +18,7 @@ class User{
     }
 
     public function getFirstName(){
-        return "Billy";
+        return $this->first_name;
     }
 
 }
