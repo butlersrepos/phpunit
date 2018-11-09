@@ -52,4 +52,11 @@ class User{
         return $this->user_email;
     }
 
+    public function getEmailVariables(){
+        return [
+            'full_name' => $this->getFullName(),
+            'email' => $this->getEmail()
+        ];
+    }
+
 }
