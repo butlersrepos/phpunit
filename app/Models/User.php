@@ -13,6 +13,7 @@ class User{
 
     public $first_name;
     public $last_name;
+    public $user_email;
 
     public function setFirstName($firstName){
     $this->first_name = $firstName;
@@ -34,12 +35,21 @@ class User{
         return $this->getFirstName() . " " . $this->getLastName();
     }
 
+
     public function rollDice($numberOfDice, $diceSides, $modifier){
         $total = 0;
         for($i=1; $i<=$numberOfDice; $i++){
            $total += random_int(1, $diceSides);
         }
         return $total + $modifier;
+    }
+
+    public function setEmail($email){
+        $this->user_email = $email;
+    }
+
+    public function getEmail(){
+        return $this->user_email;
     }
 
 }

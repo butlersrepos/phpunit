@@ -45,6 +45,15 @@ class UserTest extends \PHPUnit_Framework_TestCase{
         $this->assertGreaterThanOrEqual(4, $result);
     }
 
+    public function testEmailGetAndSet(){
+        $user = new \App\Models\User;
+
+        $emailUnderTest = 'something@email.com';
+        $user->setEmail($emailUnderTest);
+
+        $this->assertEquals($user->getEmail(), $emailUnderTest);
+    }
+
 
 
 
