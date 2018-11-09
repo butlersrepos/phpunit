@@ -36,6 +36,15 @@ class UserTest extends \PHPUnit_Framework_TestCase{
         $this->assertEquals($user->getFullName(), "Jeff Salisbury");
     }
 
+    public function testUserRollsDice(){
+        $user = new \App\Models\User;
+
+        $result = $user->rollDice(2, 6, 2);
+        echo $result;
+
+        $this->assertGreaterThanOrEqual(4, $result);
+    }
+
 
 
 

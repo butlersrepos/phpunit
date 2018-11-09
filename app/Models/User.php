@@ -34,4 +34,12 @@ class User{
         return $this->getFirstName() . " " . $this->getLastName();
     }
 
+    public function rollDice($numberOfDice, $diceSides, $modifier){
+        $total = 0;
+        for($i=1; $i<=$numberOfDice; $i++){
+           $total += random_int(1, $diceSides);
+        }
+        return $total + $modifier;
+    }
+
 }
