@@ -58,7 +58,20 @@ class CollectionTestTest extends \PHPUnit_Framework_TestCase{
         $newCollection = $collection1->getFusionDance($collection2);
 
         $this->assertCount(6, $newCollection->getItems());
+    }
 
+    /** @test */
+    public function shouldAddOneCollectionToAnother(){
+        $collection1 = new \App\Support\Collection([
+            'one', 'two', 'three'
+        ]);
 
+        $collection2 = new \App\Support\Collection([
+            'four', 'five', 'six'
+        ]);
+
+        $collection1->getMerge($collection2);
+
+        $this->assertCount(6, $collection1->getItems());
     }
 }

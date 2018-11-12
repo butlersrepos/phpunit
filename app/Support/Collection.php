@@ -38,4 +38,12 @@ class Collection implements \IteratorAggregate {
     public function getFusionDance(Collection $withCollection){
         return new Collection(array_merge($this->getItems(), $withCollection->getItems()));
     }
+
+    public function add(array $items){
+        $this->items = array_merge($this->items, $items);
+    }
+
+    public function getMerge(Collection $addCollection){
+        return $this->add($addCollection->getItems());
+    }
 }
