@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c1f549-02e2-44b0-8646-94e01b1349ce" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/Support/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Collection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/unit/CollectionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/CollectionTest.php" afterDir="false" />
     </list>
@@ -44,7 +45,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="39" />
-          <entry key="php" value="2984" />
+          <entry key="php" value="3322" />
           <entry key="txt" value="23" />
           <entry key="xml" value="172" />
         </counts>
@@ -52,7 +53,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="39" />
-          <entry key="PHP" value="2984" />
+          <entry key="PHP" value="3322" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="XML" value="172" />
         </counts>
@@ -76,39 +77,21 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/unit/SampleTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/unit/UserTest.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1054">
-              <caret line="67" selection-start-line="67" selection-end-line="67" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tests/unit/CollectionTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="397">
+              <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Support/Collection.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="414">
-              <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+            <state relative-caret-position="459">
+              <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
             </state>
           </provider>
         </entry>
@@ -127,8 +110,8 @@
         <option value="$PROJECT_DIR$/../../php/pear/PHPUnit/Framework/Comparator/DOMDocument.php" />
         <option value="$PROJECT_DIR$/app/Models/User.php" />
         <option value="$PROJECT_DIR$/tests/unit/UserTest.php" />
-        <option value="$PROJECT_DIR$/tests/unit/CollectionTest.php" />
         <option value="$PROJECT_DIR$/app/Support/Collection.php" />
+        <option value="$PROJECT_DIR$/tests/unit/CollectionTest.php" />
       </list>
     </option>
   </component>
@@ -155,7 +138,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -189,6 +171,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -236,7 +219,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16188000" />
+    <option name="totallyTimeSpent" value="17484000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,10 +231,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2030" y="81" width="1687" height="1000" extended-state="0" />
+    <frame x="2124" y="0" width="1687" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25261217" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2556853" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -327,17 +310,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/unit/CollectionTest.php">
+    <entry file="file://$PROJECT_DIR$/app/Support/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="459">
+          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/Support/Collection.php">
+    <entry file="file://$PROJECT_DIR$/tests/unit/CollectionTest.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        <state relative-caret-position="397">
+          <caret line="59" column="28" selection-start-line="59" selection-start-column="28" selection-end-line="59" selection-end-column="28" />
         </state>
       </provider>
     </entry>

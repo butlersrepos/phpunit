@@ -41,6 +41,23 @@ class CollectionTestTest extends \PHPUnit_Framework_TestCase{
 
         $this->assertCount(3, $items);
 
+        $this->assertInstanceOf(ArrayIterator::class, $collection->getIterator());
+
+    }
+
+    /** @test */
+    public function shouldMergeTwoCollections(){
+        $collection1 = new \App\Support\Collection([
+            'one', 'two', 'three'
+        ]);
+
+        $collection2 = new \App\Support\Collection([
+            'four', 'five', 'six'
+        ]);
+
+        $newCollection = $collection1->getFusionDance($collection2);
+
+        $this->assertCount(6, $newCollection->getItems());
 
 
     }

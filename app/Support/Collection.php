@@ -31,8 +31,11 @@ class Collection implements \IteratorAggregate {
         return count($this->items);
     }
 
-    public function getIterator()
-    {
+    public function getIterator(){
         return new \ArrayIterator($this->items);
+    }
+
+    public function getFusionDance(Collection $withCollection){
+        return new Collection(array_merge($this->getItems(), $withCollection->getItems()));
     }
 }
