@@ -2,8 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="15c1f549-02e2-44b0-8646-94e01b1349ce" name="Default Changelist" comment="">
+<<<<<<< Updated upstream
+      <change beforePath="$PROJECT_DIR$/app/Support/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Collection.php" afterDir="false" />
+=======
+<<<<<<< HEAD
+      <change beforePath="$PROJECT_DIR$/.idea/phpunit.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/phpunit.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+=======
       <change beforePath="$PROJECT_DIR$/app/Support/Collection.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Support/Collection.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tests/unit/CollectionTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/unit/CollectionTest.php" afterDir="false" />
+>>>>>>> master
+>>>>>>> Stashed changes
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -44,7 +53,7 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="json" value="39" />
-          <entry key="php" value="2984" />
+          <entry key="php" value="2716" />
           <entry key="txt" value="23" />
           <entry key="xml" value="172" />
         </counts>
@@ -52,7 +61,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="JSON" value="39" />
-          <entry key="PHP" value="2984" />
+          <entry key="PHP" value="2716" />
           <entry key="PLAIN_TEXT" value="23" />
           <entry key="XML" value="172" />
         </counts>
@@ -80,8 +89,18 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/unit/SampleTest.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
             <state>
               <caret column="5" lean-forward="true" selection-start-column="5" selection-end-column="5" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="680">
+              <caret line="43" selection-start-line="43" selection-end-line="43" />
+=======
+            <state relative-caret-position="380">
+              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+>>>>>>> master
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -98,8 +117,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/tests/unit/CollectionTest.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="289">
+              <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -107,8 +126,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/Support/Collection.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+            <state relative-caret-position="289">
+              <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+=======
+<<<<<<< HEAD
+            <state relative-caret-position="510">
+=======
             <state relative-caret-position="414">
+>>>>>>> master
               <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+>>>>>>> Stashed changes
             </state>
           </provider>
         </entry>
@@ -141,9 +169,52 @@
   <component name="PhpServers">
     <servers />
   </component>
+<<<<<<< Updated upstream
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="2030" />
+    <option name="y" value="81" />
+=======
+<<<<<<< HEAD
+  <component name="PhpWorkspaceProjectConfiguration">
+    <include_path>
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
+      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
+      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
+      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
+      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
+      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
+      <path value="$PROJECT_DIR$/vendor/composer" />
+      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
+      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
+      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
+      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="2124" />
+=======
   <component name="ProjectFrameBounds">
     <option name="x" value="2030" />
     <option name="y" value="81" />
+>>>>>>> master
+>>>>>>> Stashed changes
     <option name="width" value="1687" />
     <option name="height" value="1000" />
   </component>
@@ -231,12 +302,29 @@
       <option name="presentableId" value="Default" />
       <updated>1541778942425</updated>
       <workItem from="1541778943594" duration="255000" />
+<<<<<<< Updated upstream
+      <workItem from="1541779212592" duration="13933000" />
+=======
+<<<<<<< HEAD
+      <workItem from="1541779212592" duration="16764000" />
+      <workItem from="1542032577606" duration="1216000" />
+=======
       <workItem from="1541779212592" duration="15933000" />
+>>>>>>> master
+>>>>>>> Stashed changes
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< Updated upstream
+    <option name="totallyTimeSpent" value="14188000" />
+=======
+<<<<<<< HEAD
+    <option name="totallyTimeSpent" value="18235000" />
+=======
     <option name="totallyTimeSpent" value="16188000" />
+>>>>>>> master
+>>>>>>> Stashed changes
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -248,10 +336,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
+<<<<<<< Updated upstream
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+=======
+<<<<<<< HEAD
+    <frame x="2124" y="0" width="1687" height="1000" extended-state="0" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2556853" />
+=======
     <frame x="2030" y="81" width="1687" height="1000" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25261217" />
+>>>>>>> master
+>>>>>>> Stashed changes
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -264,7 +365,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3290993" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.2962578" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -329,15 +430,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/unit/CollectionTest.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="289">
+          <caret line="17" column="11" lean-forward="true" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="499">
+          <caret line="67" selection-start-line="67" selection-end-line="67" />
+=======
         <state relative-caret-position="380">
           <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
+>>>>>>> master
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Support/Collection.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< Updated upstream
+        <state relative-caret-position="289">
+          <caret line="22" column="20" lean-forward="true" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="20" />
+=======
+<<<<<<< HEAD
+        <state relative-caret-position="510">
+          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/unit/CollectionTest.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+=======
         <state relative-caret-position="414">
           <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
+>>>>>>> master
+>>>>>>> Stashed changes
         </state>
       </provider>
     </entry>

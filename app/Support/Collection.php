@@ -9,7 +9,7 @@
 namespace App\Support;
 
 
-class Collection implements \IteratorAggregate {
+class Collection{
 
 
     protected $items = [];
@@ -29,10 +29,5 @@ class Collection implements \IteratorAggregate {
 
     public function count(){
         return count($this->items);
-    }
-
-    public function getIterator()
-    {
-        return new \ArrayIterator($this->items);
     }
 }
