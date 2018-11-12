@@ -50,4 +50,12 @@ class Collection implements \IteratorAggregate {
     public function toJson(){
         return json_encode($this->items);
     }
+
+    /**
+     * @param array $items
+     */
+    public function setItems($items)
+    {
+        $this->items = $items;
+    }
 }
