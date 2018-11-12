@@ -46,4 +46,8 @@ class Collection implements \IteratorAggregate {
     public function getMerge(Collection $addCollection){
         return $this->add($addCollection->getItems());
     }
+
+    public function toJson(){
+        return json_encode($this->items);
+    }
 }

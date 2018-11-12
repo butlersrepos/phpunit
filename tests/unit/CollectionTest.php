@@ -74,4 +74,15 @@ class CollectionTestTest extends \PHPUnit_Framework_TestCase{
 
         $this->assertCount(6, $collection1->getItems());
     }
+
+    /** @test */
+    public function shouldReturnJsonEncodedItems(){
+        $collection1 = new \App\Support\Collection([
+            ['username' =>  'alex'],
+            ['username' =>  'billy'],
+        ]);
+
+        $this->assertEquals('[{"username":"alex"},{"username":"billy"}]', $collection1->toJson());
+    }
+
 }
